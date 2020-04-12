@@ -1,0 +1,42 @@
+.container{
+    max-width: 80%;
+    background-color: rgb(250, 173, 143);
+    padding: 34px;
+    margin: 23px;
+    margin: auto;
+    font-family: 'Comic Neue', cursive;
+}
+
+.container h3{
+    font-family: 'Comic Neue', cursive;
+    font-size: 45px;
+    text-align: center;
+}
+.container p{
+    font-family: 'Comic Neue', cursive;
+    font-size: 30px;
+    text-align: center;
+}    
+input,textarea{
+    font-size: 14px;
+    width: 80%;
+    margin: 6px;
+    padding: 7px;
+    border: 2px solid;
+    border-radius: 6px;
+    font-family: 'Comic Neue', cursive;
+}
+
+.btn{
+    color: white;
+    background: darkred;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-family: 'Comic Neue', cursive;
+}
+.submitMsg{
+    font-family: 'Comic Neue', cursive;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(255, 79, 79);
+}
