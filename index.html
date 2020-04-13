@@ -16,17 +16,9 @@ if(isset($_POST['name'])){
     $desc=$_POST['desc'];
     $sql = "INSERT INTO `trip`.`trip`(`name`, `age`, `gender`,`phone`, `descc`,`dt`) 
     VALUES ('$name', '$age', '$gender', '$phone', '$desc',current_timestamp());";
-
-    if($con->query($sql)==true){
-      //echo "done";
-    }
-    else{
-      echo "error:$sql<br>$con->error";
-    }
-
-    $con->close();
   }    
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -54,3 +46,7 @@ if(isset($_POST['name'])){
     <script src="index.js"></script>
 </body>
 </html>
+
+<?php
+$con->close();
+?>
